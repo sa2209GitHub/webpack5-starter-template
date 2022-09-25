@@ -31,3 +31,9 @@ Webpack 5 Starter Template
     "build:prod": "export NODE_ENV=production && webpack",
     "clean": "rm -rf ./dist"
     },
+
+6.  Install "html-webpack-plugin" as development dependency
+
+    $ npm install html-webpack-plugin --save-dev
+
+7.  Add these lines to "webpack.config.js" to configure "html-webpack-plugin"

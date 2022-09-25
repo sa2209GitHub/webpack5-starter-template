@@ -1,0 +1,1 @@
+!function(){"use strict";const o=(o,n)=>o-n;console.log(42,o(50,8),48,o(84,2)),console.log("It's working!")}();
