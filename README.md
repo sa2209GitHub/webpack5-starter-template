@@ -55,3 +55,7 @@ Webpack 5 Starter Template
     $ npm install sass sass-loader --save-dev
     mv ./src/styles/style.css ./src/styles/style.scss
     ```
+13. Install "postcss" "postcss-loader" "postcss-preset-env" as development dependencies
+    ```bash
+    npm install postcss postcss-loader postcss-preset-env --save-dev
+    ```

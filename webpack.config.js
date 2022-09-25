@@ -33,10 +33,18 @@ module.exports = {
                 loader: 'html-loader',
             },
             {
-                test: /\.(c|sa|sc)ss$/i,
+                test: /\.s[ac]ss$/i,
                 use: [
                     devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
                     'css-loader',
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            postcssOptions: {
+                                plugins: [require('postcss-preset-env')],
+                            },
+                        },
+                    },
                     'sass-loader',
                 ],
             },
