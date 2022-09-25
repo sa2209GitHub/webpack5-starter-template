@@ -1,0 +1,9 @@
+body {
+    background-color: darkslategrey;
+}
+
+header {
+    display: flex;
+    padding: 0px 30px;
+    background-color: darkorange;
+}
