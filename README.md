@@ -26,15 +26,19 @@ Webpack 5 Starter Template
 5.  Add these lines to "package.json" file to configure npm scripts
     ```json
     "scripts": {
-    "serve": "export NODE_ENV=development && webpack serve",
-    "build:dev": "export NODE_ENV=development && webpack",
-    "build:prod": "export NODE_ENV=production && webpack",
-    "clean": "rm -rf ./dist"
+        "serve": "export NODE_ENV=development && webpack serve",
+        "build:dev": "export NODE_ENV=development && webpack",
+        "build:prod": "export NODE_ENV=production && webpack",
+        "clean": "rm -rf ./dist"
     },
     ```
-
 6.  Install "html-webpack-plugin" as development dependency
-
+    ```bash
     $ npm install html-webpack-plugin --save-dev
-
+    ```
 7.  Configure "html-webpack-plugin"
+
+8.  Install "html-loader"
+    ```bash
+    $ npm install html-loader
+    ```
