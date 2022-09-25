@@ -46,3 +46,7 @@ Webpack 5 Starter Template
     ```bash
     $ nmp install css-loader style-loader --save-dev
     ```
+10. Install "mini-css-extract-plugin" as development dependency
+    ```bash
+    $ npm install mini-css-extract-plugin
+    ```
