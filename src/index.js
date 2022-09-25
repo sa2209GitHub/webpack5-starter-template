@@ -1,6 +1,7 @@
-import './index.html'
+import './index.html';
+import './styles/style.css';
 
-import { sum, sub, mul, div } from './modules/module'
+import { sum, sub, mul, div } from './modules/module';
 
 console.log(sum(40, 2), sub(50, 8), mul(6, 7), div(84, 2))
 

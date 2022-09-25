@@ -42,3 +42,7 @@ Webpack 5 Starter Template
     ```bash
     $ npm install html-loader
     ```
+9.  Install "css-loader" and "style-loader" as development dependencies to load your styles from css and js files
+    ```bash
+    $ nmp install css-loader style-loader --save-dev
+    ```
