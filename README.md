@@ -50,3 +50,8 @@ Webpack 5 Starter Template
     ```bash
     $ npm install mini-css-extract-plugin
     ```
+11. Install "sass" and "sass-loader" as development dependencies
+    ```bash
+    $ npm install sass sass-loader --save-dev
+    mv ./src/styles/style.css ./src/styles/style.scss
+    ```

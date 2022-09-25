@@ -1,5 +1,5 @@
 import './index.html';
-import './styles/style.css';
+import './styles/style.scss';
 
 import { sum, sub, mul, div } from './modules/module';
 
