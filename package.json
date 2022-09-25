@@ -1,0 +1,25 @@
+{
+  "name": "webpack5-starter-template",
+  "version": "1.0.0",
+  "description": "Webpack 5 Starter Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sa2209GitHub/webpack5-starter-template.git"
+  },
+  "keywords": [
+    "webpack",
+    "node",
+    "javascript",
+    "js"
+  ],
+  "author": "Sergey Arkhangelskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sa2209GitHub/webpack5-starter-template/issues"
+  },
+  "homepage": "https://github.com/sa2209GitHub/webpack5-starter-template#readme"
+}
