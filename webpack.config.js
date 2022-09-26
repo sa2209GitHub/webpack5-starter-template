@@ -12,6 +12,11 @@ module.exports = {
     mode,
     target,
     devtool,
+    devServer: {
+        port: 9000,
+        open: false,
+        hot: true,
+    },
     entry: path.resolve(__dirname, 'src', 'index.js'),
     output: {
         filename: '[name].[contenthash].bundle.js',

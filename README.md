@@ -59,3 +59,12 @@ Webpack 5 Starter Template
     ```bash
     npm install postcss postcss-loader postcss-preset-env --save-dev
     ```
+14. Add these lines to "webpack.config.js" file to configure "webpack-dev-server"
+    ```javascript
+    module.exports = {
+        devServer: {
+        port: 9000,
+        open: false,
+        hot: true,
+    },
+    ```
