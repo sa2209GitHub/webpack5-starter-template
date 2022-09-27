@@ -1,3 +1,4 @@
+import 'core-js'
 import './index.html';
 import './styles/style.scss';
 

@@ -66,5 +66,27 @@ Webpack 5 Starter Template
         port: 9000,
         open: false,
         hot: true,
+        },
     },
+    ```
+15. Install "babel-loader" "@babel/core" "@babel/preset-env"
+    ```bash
+    $ npm install babel loader @babel/core @babel/preset-env as development dependencies
+    ```
+16. Add these lines to "wbpack.config.js" file to configure "babel-loader"
+    ```javascript
+    module: {
+        rules: [
+            {
+                test: /\.m?js$/,
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-env']
+                    }
+                }
+            }
+        ]
+    }
     ```
