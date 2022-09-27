@@ -71,7 +71,7 @@ Webpack 5 Starter Template
     ```
 15. Install "babel-loader" "@babel/core" "@babel/preset-env"
     ```bash
-    $ npm install babel loader @babel/core @babel/preset-env as development dependencies
+    $ npm install babel-loader @babel/core @babel/preset-env as development dependencies
     ```
 16. Add these lines to "wbpack.config.js" file to configure "babel-loader"
     ```javascript
@@ -85,6 +85,20 @@ Webpack 5 Starter Template
                     options: {
                         presets: ['@babel/preset-env']
                     }
+                }
+            }
+        ]
+    }
+    ```
+17. Add these lines to webpack.config.js to configure fonts
+    ```javascript
+    module: {
+        rules: [
+            {
+                test: /\.(eot|woff2?|[to]tf)$/i,
+                type: 'asset/resource',
+                generator: {
+                    filename: 'fonts/[name].[ext]'
                 }
             }
         ]
