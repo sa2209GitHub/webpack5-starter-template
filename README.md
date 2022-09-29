@@ -98,7 +98,7 @@ Webpack 5 Starter Template
                 test: /\.(eot|woff2?|[to]tf)$/i,
                 type: 'asset/resource',
                 generator: {
-                    filename: 'fonts/[name].[ext]'
+                    filename: 'fonts/[name][ext]'
                 }
             }
         ]
